@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <>
+    <React.Fragment>
       <header className="header">
         <nav className="nav">
           <Link href="/">
@@ -13,7 +13,7 @@ const Header = () => {
           </Link>
         </nav>
       </header>
-    </>
+    </React.Fragment>
   );
 };
 
